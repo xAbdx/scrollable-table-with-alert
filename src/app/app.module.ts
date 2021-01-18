@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ScrollDirectiveDirective } from './scroll-directive.directive';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ScrollDirectiveDirective,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
